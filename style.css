@@ -1,0 +1,55 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.container input{
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+    border: none;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(80, 77, 77);
+}
+ 
+
+
+input[type='button']{
+   
+    border-radius: 6%;
+    border: none;
+    background-color: rgb(149, 144, 144);
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.dis{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#keys .plus ,#keys .minus,#keys .mul,#keys .divi{
+    background-color: orange;
+    color: white;
+}
+#keys .equal {
+    background-color: rgb(31, 31, 239);
+    display: grid;
+    grid-column: span 2;
+}
