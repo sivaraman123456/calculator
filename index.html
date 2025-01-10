@@ -24,7 +24,12 @@
             <input type='button'value="1" onclick="display.value+='1'">
             <input type='button'value="2" onclick="display.value+='2'">
             <input type='button'value="3" class="three" onclick="display.value+='3'">
-           
+            <input type='button'value="/"  class="divi"onclick="display.value+='/'">
+            <input type='button'value="0" onclick="display.value+='0'">
+            <input type='button'value="=" class="equal" onclick="display.value = eval(display.value)">
+            <input type='button'value="." onclick="display.value+='.'">
+            <input type='button'value="AC" onclick="display.value=''">
+            <input type='button'value="DE" onclick="display.value= display.value.toString().slice(0,-1)">
         </div>
     </form>
     </div>
